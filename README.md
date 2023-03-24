@@ -12,7 +12,7 @@ Use API from "https://jsonplaceholder.typicode.com/users"
 - Update employee data
 - Delete employee data
 - Searching employee data
-
+- Notification when change data
 ## Tech Stack
 
  - HTML
