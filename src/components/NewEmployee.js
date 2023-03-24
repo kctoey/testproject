@@ -11,7 +11,7 @@ export function NewEmployee({ onAdd }) {
       !evt.target.username.value ||
       !evt.target.phone.value
     ) {
-      alert("Please fill the form");
+      alert("Some fill are incomplete");
     } else {
       onAdd(
         evt.target.name.value,
@@ -19,7 +19,7 @@ export function NewEmployee({ onAdd }) {
         evt.target.username.value,
         evt.target.phone.value
       );
-      alert("Successed Add");
+      alert("Create successfully");
     }
 
     evt.target.name.value = "";

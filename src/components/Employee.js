@@ -18,6 +18,7 @@ export const Employee = ({
 
   const handleDelete = () => {
     onDelete(id);
+    alert("Delete successfully");
   };
 
   const handleOnEditSubmit = (evt) => {
@@ -30,6 +31,7 @@ export const Employee = ({
       evt.target.phone.value
     );
     setIsEdit(!isEdit);
+    alert("Update successfully");
   };
 
   return (
