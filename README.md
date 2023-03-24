@@ -11,7 +11,7 @@ Use API from "https://jsonplaceholder.typicode.com/users"
 - Read employee data
 - Update employee data
 - Delete employee data
-
+- Searching employee data
 
 ## Tech Stack
 
